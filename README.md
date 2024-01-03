@@ -1,3 +1,5 @@
+![HoR_Cover](media/cover.png)
+
 # Hands-on Robotics
 Hands-on Robotics is a graduate course provided to Ph.D. students in Biorobotics at Scuola Superiore Sant'Anna. Thir repository contains all the material used during the class.
 
