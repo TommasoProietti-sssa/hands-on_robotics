@@ -7,9 +7,9 @@ Hands-on Robotics is an immersive and hands-on course designed for 1st-2nd year 
 ## Contact
 Please feel free to contact the lecturer Tommaso Proietti at his email address for any information: [tommaso.proietti@santannapisa.it](tommaso.proietti@santannapisa.it).
 
-Tommaso Proietti
-*Assistant Professor*
-[Soft NeuroBionics Lab](https://www.santannapisa.it/en/institute/biorobotics/soft-neurobionics-lab)
-The BioRobotics Institute
-Scuola Superiore Sant'Anna
+Tommaso Proietti\
+*Assistant Professor*\
+[Soft NeuroBionics Lab](https://www.santannapisa.it/en/institute/biorobotics/soft-neurobionics-lab)\
+The BioRobotics Institute\
+Scuola Superiore Sant'Anna\
 Pisa, Italy
