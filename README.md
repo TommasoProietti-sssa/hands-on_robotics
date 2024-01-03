@@ -1,5 +1,6 @@
 <p align="center">
     <img src="media/cover.png" alt="HoR_Cover" width="500"/>
+    Created by DALL-E 3.
 </p>
 
 # Hands-on Robotics
