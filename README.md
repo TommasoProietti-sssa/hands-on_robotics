@@ -1,6 +1,6 @@
 <p align="center">
     <img src="media/cover.png" alt="HoR_Cover" width="500"/><br>
-    Created by DALL-E 3.
+    <span style="font-size:0.5em; font-style:italic;">Created by DALL-E 3.</span>
 </p>
 
 # Hands-on Robotics
