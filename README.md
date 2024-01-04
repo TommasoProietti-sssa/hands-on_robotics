@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="media/cover.png" alt="HoR_Cover" width="500">   
+    <img src="cover.png" alt="HoR_Cover" width="500">   
 </p>
 
 # Hands-on Robotics
