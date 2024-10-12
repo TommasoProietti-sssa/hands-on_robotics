@@ -5,8 +5,6 @@
 # Hands-on Robotics
 Hands-on Robotics is a graduate course provided to Ph.D. students in Biorobotics at Scuola Superiore Sant'Anna. This repository contains the material used during the class.
 
-"This is the coolest class ever" [Wired]
-
 ## Abstract
 _Hands-on Robotics_ is an immersive and hands-on course designed for Ph.D. students with a theoretical background in engineering who seek to bridge the gap between theory and practice in the field of Biorobotics. Over the duration of the course, participants will build a robotic application from scratch, analyzing the different essential aspects of the design process. From the initial phase of understanding and defining functional and non-functional requirements to practicing CAD and E-CAD, real-time programming with microcontrollers, communication protocols, graphical user interface design, data processing and data visualization, the course equips students with the practical skills needed to bring theoretical concepts to life. A project-based approach will allow participants to directly apply their knowledge to create a functional prototype, gaining experience useful for pursuing their Ph.D. 
 
