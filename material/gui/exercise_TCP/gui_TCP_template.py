@@ -32,10 +32,8 @@ class main_window(QMainWindow):
 
 		# buttons
 		self.connect_button.clicked.connect(self.connectToPort) 
-		self.pushButton1.clicked.connect(lambda: self.on_click(1))
-		self.pushButton2.clicked.connect(lambda: self.on_click(2))
-		self.pushButton3.clicked.connect(lambda: self.on_click(3))
 		self.save_data_button.clicked.connect(self.save_data) 
+		###### Here you want to create the pushbutton events
 
 		# plot 
 		self.ui.plot_widget.setBackground('w')
@@ -49,7 +47,7 @@ class main_window(QMainWindow):
 
 	# Button click event
 	def on_click(self, button):
-		# here you want to update the lcdNumberX (display(text) method) when clicking a button on the GUI
+		###### Here you want to update the lcdNumberX (display(text) method) when clicking a button on the GUI
 
 	# Connect to COM port
 	def connectToPort(self):
@@ -61,6 +59,7 @@ class main_window(QMainWindow):
 
 	# TCP port handler thread
 	def tcp_port_handler(self):
+		###### Here you want to:
 		# 1. Create a TCP socket
 		# 2. Connect to the TCP server
 		# 3. Read data from the TCP server in a while loop and put the data in two queues (tcp_data_in_queue and tcp_data_in_queue_to_writer)
@@ -101,37 +100,7 @@ class main_window(QMainWindow):
 	
 	# Data writer thread
 	def data_writer(self):
-		while not self.thread_killer.is_set():
-			if self.flag_save_data.is_set():
-				# Input string from filename_edit
-				input_name = self.filename_edit.text()
-				input_name = input_name.replace(' ','_')
-				# Date
-				year = str(datetime.datetime.now().year)
-				month = str(datetime.datetime.now().month)
-				day = str(datetime.datetime.now().day)
-				hour = str(datetime.datetime.now().hour)
-				minute = str(datetime.datetime.now().minute)
-				second = str(datetime.datetime.now().second)
-				# Final filename
-				filename = year + month + day + '_' + hour + minute + second + '_' + input_name + '.csv'
-				print(filename)
-				# Opening new file
-				output_file = open(filename,'w')
-				time.sleep(0.1)  # waiting for the file to be opened
-				while self.flag_save_data.is_set():
-					if not self.tcp_data_in_queue_to_writer.empty():
-						try:
-							values = self.tcp_data_in_queue_to_writer.get_nowait()  
-							output_file.write(str(values['random_int']) + "," + str(values['random_float']) + "\n")
-						except Exception as e:
-							print(e)
-							pass
-					time.sleep(0.001) # needed of gui
-				output_file.close()
-				print(filename)
-			time.sleep(0.001) # needed of gui
-		print("[closed_data_writer]")
+		###### Here you want to write the data in the tcp_data_in_queue_to_writer queue to a file (both random numbers)
 
 if __name__ == "__main__":
 	app = QApplication(sys.argv)

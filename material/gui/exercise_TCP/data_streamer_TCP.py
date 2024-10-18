@@ -25,11 +25,11 @@ def send_random_numbers():
 		# Send random numbers at 200Hz frequency
 		while True:
 			random_int = random.randint(0, 10)
-			random_float1 = random.uniform(0, 5.0)
+			random_float = random.uniform(0, 5.0)
 
 			data = {
 				'random_int': random_int,
-				'random_float': random_float1,
+				'random_float': random_float,
 			}
 
 			# Convert the dictionary to a JSON string
