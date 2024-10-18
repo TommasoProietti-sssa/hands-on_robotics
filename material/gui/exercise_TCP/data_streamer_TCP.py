@@ -29,7 +29,7 @@ def send_random_numbers():
 
 			data = {
 				'random_int': random_int,
-				'random_float1': random_float1,
+				'random_float': random_float1,
 			}
 
 			# Convert the dictionary to a JSON string
