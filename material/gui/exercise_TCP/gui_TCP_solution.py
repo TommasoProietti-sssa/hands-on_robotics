@@ -17,7 +17,7 @@ import json
 class main_window(QMainWindow):
 	def __init__(self):
 		super().__init__()
-		self.ui = uic.loadUi('gui4_data_saving.ui', self) # load user interface
+		self.ui = uic.loadUi('gui4_data_saving_solution.ui', self) # load user interface
 
 		# threading variables
 		self.tcp_data_in_queue = queue.Queue() 
